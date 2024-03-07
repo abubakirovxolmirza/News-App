@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.tweet {
+    width: 60%;
+    margin: 15px auto;
+    border-top: 1px solid #4444;
+    border-bottom: 1px solid #4444;
+    padding: 10px;
+}
+
+.user {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-container{
+    margin-bottom: 10px;
+}
+.post_date {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+}
+
+.post_form {
+    width: 40%;
+    margin: auto;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #000;
+    background-color: #ffffff;
+    border: none;
+}
+.card-img-top {
+     height: 200px;
+     object-fit: cover;
+}
+
+.detail_title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+.img_container {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+.img_container img{
+    width: 500px;
+    object-fit: cover;
+    height: 400px;
+}
+.card{
+    margin-bottom: 10px;
+}
+.card-img {
+     width: 80%;
+    height: 200px;
+    object-fit: cover;
+     border-radius: 10px;
+}
+
+
+
+
+.card_text {
+    font-family: "PT Serif", serif;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 19px ;
+}
+/* Add your custom CSS styles here */
+
+.container_ {
+    margin-top: 20px;
+}
+
+.detail_card {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+.post_date {
+    font-size: 14px;
+    color: #777;
+}
+
+.detail_title {
+    font-size: 24px;
+    color: #333;
+}
+
+.img_container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.detail_body {
+    margin-top: 20px;
+}
+
+.card_text {
+    font-size: 16px;
+    color: #555;
+}
+
+.comment_container {
+    margin-top: 20px;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.profile-user {
+    margin-bottom: 10px;
+}
+
+
+.p-username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.p-question-date {
+    font-size: 14px;
+    color: #777;
+}
+
+.card-question {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.tweet-comment-text {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn-comment {
+    margin-top: 20px;
+}
+
+.card-reply-a {
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333;
+    border: 2px solid #333;
+    transition: all 0.3s ease;
+}
+
+.card-reply-a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+hr {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+}

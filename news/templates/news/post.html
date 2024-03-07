@@ -1,0 +1,15 @@
+{% extends 'news/base.html'%}
+{% load crispy_forms_tags %}
+
+{% block header %}
+    <title>New POst!</title>
+{% endblock %}
+
+{% block content %}
+    <h1>What's new today!</h1>
+    <form method="POST" class="post_form">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-info">Post</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'news/base.html'%}
+{% load crispy_forms_tags %}
+
+{% block header %}
+    <title>Password Reset Confirm</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Password Reset Confirm</h1>
+    <form method="POST" class="post_form">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-outline-success">Password Reset Confirm</button>
+    </form>
+{% endblock %}

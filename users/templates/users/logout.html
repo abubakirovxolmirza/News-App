@@ -1,0 +1,17 @@
+{% extends 'news/base.html'%}
+{% load crispy_forms_tags %}
+
+{% block header %}
+    <title>Logout Page</title>
+{% endblock %}j
+
+{% block content %}
+    <h1>Logout</h1>
+    <form method="POST" class="post_form">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" class="btn btn-outline-danger">Logout</button>
+    </form>
+
+
+{% endblock %}

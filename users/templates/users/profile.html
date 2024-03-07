@@ -1,0 +1,11 @@
+{% extends 'news/base.html'%}
+{% load crispy_forms_tags %}
+
+{% block header %}
+    <title>@{{ user.profile }}</title>
+{% endblock %}
+
+{% block content %}
+    <img src="{{ user.profile.img.url }}" alt="" height="80" width="80" style="object-fit: cover;margin:auto;display: block" >
+    <h1>@{{ user.profile }}</h1>
+{% endblock %}

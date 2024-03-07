@@ -78,11 +78,14 @@ WSGI_APPLICATION = 'config.wsgi.app'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'verceldb',
+            'HOST': 'ep-blue-queen-75951307-pooler.us-east-1.aws.neon.tech',
+            'USER': 'default',
+            'PASSWORD': 'MzTERP0jt7Ol',
+        }
     }
-}
 
 
 # Password validation
